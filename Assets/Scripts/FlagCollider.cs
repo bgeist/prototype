@@ -6,7 +6,7 @@ public class FlagCollider : MonoBehaviour {
 
   void OnTriggerStay(Collider other) {
     FlagCollider otherFlagCollider = other.gameObject.GetComponent<FlagCollider>();
-    if ((otherFlagCollider.flag & flag) != 0) {
+	if (otherFlagCollider != null && (otherFlagCollider.flag & flag) != 0) {
       collided.Remove(other);
       collided.Add(other);
     }
