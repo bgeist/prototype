@@ -4,9 +4,9 @@ public class FlagCollider : MonoBehaviour {
   [EnumFlag] public Flag flag;
   public OrderedSet<Collider> collided = new OrderedSet<Collider>();
 
-  void OnTriggerStay(Collider other) {
-    FlagCollider otherFlagCollider = other.gameObject.GetComponent<FlagCollider>();
-	if (otherFlagCollider != null && (otherFlagCollider.flag & flag) != 0) {
+  void OnTriggerEnter(Collider other) {
+    FlagEmitter emitter = other.gameObject.GetComponent<FlagEmitter>();
+    if (emitter != null && (emitter.flag & flag) != 0) {
       collided.Remove(other);
       collided.Add(other);
     }
