@@ -5,7 +5,7 @@ public class FlagNavMeshAgent : MonoBehaviour {
   NavMeshAgent nav;
 
   void Awake() {
-    flagCollider = GetComponent<FlagCollider>();
+    flagCollider = GetComponentInChildren<FlagCollider>();
     nav = GetComponent<NavMeshAgent>();
   }
 
