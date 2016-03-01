@@ -1,9 +1,10 @@
 using UnityEngine;
 
 public class FlagNavMeshAgent : MonoBehaviour {
+  public float range = 2;
+  [HideInInspector] public Collider dest;
   FlagCollider flagCollider;
   NavMeshAgent nav;
-  public float range = 2;
 
   void Awake() {
     flagCollider = GetComponentInChildren<FlagCollider>();
@@ -11,13 +12,12 @@ public class FlagNavMeshAgent : MonoBehaviour {
   }
 
   void Update() {
-    if (flagCollider.collided.Count > 0) {
-      Collider other = flagCollider.collided[0];
-      if (inRange(other)) {
-        nav.Stop();
+    dest = flagCollider.collided.Count > 0 ? flagCollider.collided[0] : null;
+    if (dest != null) {
+      if (inRange(dest)) {
+        nav.enabled = false;
       } else {
-        nav.Resume();
-        nav.SetDestination(other.transform.position);
+        nav.SetDestination(dest.transform.position);
       }
     }
   }
