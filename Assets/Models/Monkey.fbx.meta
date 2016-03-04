@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: c352359700c704c6da928a5ab8295f2c
+timeCreated: 1457057824
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Elbow
+    100002: Elbow.001
+    100004: Head
+    100006: Lamp
+    100008: Left Arm
+    100010: Left Leg
+    100012: Leg
+    100014: Leg.001
+    100016: Lower Arm
+    100018: Lower Arm.001
+    100020: //RootNode
+    100022: Monkey Head Remnata 0
+    100024: Monkey Head Remnata 1
+    100026: Monkey Head Remnata 2
+    100028: Right Arm
+    100030: Right Leg
+    100032: Right Leg 1
+    100034: Right Leg 2
+    100036: Right Leg_end
+    100038: Right Leg_end 1
+    100040: Right Lower Arm
+    100042: Right Lower Arm 1
+    100044: Right Lower Arm_end
+    100046: Right Lower Arm_end 1
+    100048: Right Upper Arm
+    100050: Right Upper Arm 1
+    100052: Shoulder
+    100054: Shoulder.001
+    100056: Torso
+    100058: Upper Arm
+    100060: Upper Arm.001
+    400000: Elbow
+    400002: Elbow.001
+    400004: Head
+    400006: Lamp
+    400008: Left Arm
+    400010: Left Leg
+    400012: Leg
+    400014: Leg.001
+    400016: Lower Arm
+    400018: Lower Arm.001
+    400020: //RootNode
+    400022: Monkey Head Remnata 0
+    400024: Monkey Head Remnata 1
+    400026: Monkey Head Remnata 2
+    400028: Right Arm
+    400030: Right Leg
+    400032: Right Leg 1
+    400034: Right Leg 2
+    400036: Right Leg_end
+    400038: Right Leg_end 1
+    400040: Right Lower Arm
+    400042: Right Lower Arm 1
+    400044: Right Lower Arm_end
+    400046: Right Lower Arm_end 1
+    400048: Right Upper Arm
+    400050: Right Upper Arm 1
+    400052: Shoulder
+    400054: Shoulder.001
+    400056: Torso
+    400058: Upper Arm
+    400060: Upper Arm.001
+    2300000: Elbow.001
+    2300002: Head
+    2300004: Monkey Head Remnata 0
+    2300006: Monkey Head Remnata 1
+    2300008: Monkey Head Remnata 2
+    2300010: Shoulder
+    2300012: Torso
+    3300000: Elbow.001
+    3300002: Head
+    3300004: Monkey Head Remnata 0
+    3300006: Monkey Head Remnata 1
+    3300008: Monkey Head Remnata 2
+    3300010: Shoulder
+    3300012: Torso
+    4300000: Shoulder
+    4300002: Lower Arm
+    4300004: Upper Arm
+    4300006: Leg
+    4300008: Lower Arm.001
+    4300010: Upper Arm.001
+    4300012: Elbow
+    4300014: Leg.001
+    4300016: Monkey Head Remnata 2
+    4300018: Torso
+    4300020: Head
+    9500000: //RootNode
+    13700000: Elbow
+    13700002: Leg
+    13700004: Leg.001
+    13700006: Lower Arm
+    13700008: Lower Arm.001
+    13700010: Shoulder.001
+    13700012: Upper Arm
+    13700014: Upper Arm.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
